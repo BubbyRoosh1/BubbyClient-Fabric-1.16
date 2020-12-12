@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "bubbyclient",
+  "version": "${version}",
+  "name": "BubbyClient",
+  "description": "Best Client 2",
+  "authors": [
+    "BubbyRoosh",
+    "Jrepxc",
+    "RoastyRon/KarioMart/Not Linus Torvalds"
+  ],
+  "contact": {
+    "homepage": "uhhh",
+    "sources": "no"
+  },
+  "license": "EVIL PROPRIETARY SURVEILLANCE DEVICE",
+  "icon": "assets/bubbyclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "bubby.client.BubbyClient"
+    ]
+  },
+  "mixins": [
+    "bubbyclient.mixins.json"
+  ]
+}

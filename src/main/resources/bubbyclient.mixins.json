@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "package": "bubby.api.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinBlockItem",
+    "MixinClientConnection",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayerInteractionManager",
+    "MixinClientWorld",
+    "MixinEntityRenderer",
+    "MixinGameRenderer",
+    "MixinIChatMessageC2SPacket",
+    "MixinIngameHud",
+    "MixinInGameOverlayRenderer",
+    "MixinKeyboard",
+    "MixinMinecraftClient",
+    "MixinPacketInflater",
+    "MixinPlayerEntity",
+    "MixinRenderTickCounter",
+    "MixinScreenshotUtils",
+    "MixinTitleScreen",
+    "MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
