@@ -1,6 +1,6 @@
 package bubby.client.commands;
 
-import baritone.api.BaritoneAPI;
+//import baritone.api.BaritoneAPI;
 import bubby.api.command.Command;
 
 public class Baritone extends Command
@@ -14,6 +14,6 @@ public class Baritone extends Command
   public void
   execute(String command, String[] args) throws Exception
   {
-    BaritoneAPI.getProvider().getPrimaryBaritone().getCommandManager().execute(String.join(" ", args));
+    //BaritoneAPI.getProvider().getPrimaryBaritone().getCommandManager().execute(String.join(" ", args));
   }
 }
